@@ -31,7 +31,7 @@ end
 setupAntiAFK()
 
 -- Create Main Window
-local window = library:AddWindow("iErick On Top | By Pirlo", {
+local window = library:AddWindow("B'D PRIVATE SCRIPT| By Pirlo", {
     main_color = Color3.fromRGB(144, 0, 194),
     min_size = Vector2.new(550, 600),
     can_resize = true,
@@ -42,7 +42,7 @@ local mainTab = window:AddTab("Main")
 local farmPlusTab = window:AddTab("Farm")
 mainTab:Show() -- Show this tab by default
 
-mainTab:AddLabel("TE ANO ERICK")
+mainTab:AddLabel("De Pirlo Para Brii")
 
 
 -- Add Anti-AFK toggle
@@ -2608,4 +2608,10 @@ end)
 local noteTab = window:AddTab("Note")
 
 -- Add a decorative header with centered text
-noteTab:AddLabel("SCRIPT PARA iErick |by Pirlo")
+noteTab:AddLabel("B'D PRÃVATE SCRIPT | by Pirlo")
+
+-- Add spacers for better layout
+noteTab:AddLabel("CREDIT : Con cariÃ±o para Bri")
+-- Instead of one large text block, let's add each paragraph separately
+-- This gives better control over formatting
+noteTab:AddLabel("CREADO POR PIRLO")
